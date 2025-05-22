@@ -1,0 +1,9 @@
+# Terraform related files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.tfplan
+crash.log
+*.tfvars.secret # For explicitly secret variable files
